@@ -11,8 +11,8 @@ const Login = () => {
   return (
     <div>
       <h1>Login</h1>
-      <div className={styles.formWrapper}>
-        <form className={styles.form} onSubmit={handleSubmit}>
+      <div >
+        <form  onSubmit={handleSubmit}>
           <input
             type="text"
             placeholder="username"
